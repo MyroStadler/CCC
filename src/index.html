@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="controls">
+      <button class="new-game">New Game</button>
+      <button class="human">I want to play the computer</button>
+      <button class="ai">Autopilot engage</button>
+      <p class="score p1">Player 1: 0 / 0</p>
+      <p class="score p2">Player 2: 0 / 0</p>
+    </div>
+   
+    <hr />
+    
+    <div class="game">
+    </div>
+    
+    <!-- see /.bowerrc and /bower.json for more info on _lib/... -->
+    <script src="_lib/jquery/dist/jquery.js"></script>
+    
+    <script src="js/HumanPlayer.js"></script>
+    <script src="js/SimulatedPlayer.js"></script>
+    <script src="js/Model.js"></script>
+    <script src="js/Controls.js"></script>
+    <script src="js/View.js"></script>
+    <script src="js/Game.js"></script>
+    <!--include main last-->
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
